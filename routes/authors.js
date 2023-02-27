@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const Author = require('../models/author')
 
+// building rest api, mapping views and rest methods
 // All Authors Route
 router.get('/', async (req, res) => {
     let searchOptions = {}
